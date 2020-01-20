@@ -1,0 +1,8 @@
+.idea
+venv
+__pycache__/
+Test_folders
+test*.py
+Practical_work/Pract_06
+Practical_work/Pract_07
+design.py
