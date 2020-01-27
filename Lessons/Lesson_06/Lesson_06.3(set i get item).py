@@ -1,7 +1,7 @@
 class Array:
 
     def __init__(self, size):
-        self._array = [0] * size
+        self._array = [1] * size
         self._size = size
 
     def __getitem__(self, index):
@@ -26,16 +26,16 @@ class Array:
 
     @property
     def tail(self):
-        return self[self._size]
+        return self[self._size-1]
 
     def __str__(self):
         return str(self._array)
 
 
 a = Array(100)
-a[12]=123
+a[1]=123
 # print(a[12])
 
-print(a.head)
+print(len(a))
 print(a.tail)
 
