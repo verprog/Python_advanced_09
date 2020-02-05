@@ -1,7 +1,7 @@
 from enum import Enum
 
 
-TOKEN = '988581457:AAGTtV81u_YTzQwOf6qG6yvDRGmQNJw0-PQ'
+TOKEN = 'СВОЙ токен введи:)'
 
 
 class States(Enum):
